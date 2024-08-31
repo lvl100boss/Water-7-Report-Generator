@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: Poppins, sans-serif;
+    background-image: linear-gradient(to top, #040404, #060606, #080709, #09090b, #0b0b0d, #0c0b15, #0d0c1c, #0e0c22, #0d0b2e, #09093a, #070545, #0a0050);
+
+    height: 100vh;
+}
+header {
+    padding: 2rem 20rem;
+    display: flex;
+    align-items: center;
+    gap: 2ch;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 20rem;
+}
+.right-container {
+    
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-width: 20.5dvw;
+    /* place-self: center; */
+    min-height: 26.249rem;
+    min-width: 30.026rem;
+    border-radius: 0.3rem;
+}
+.container {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem;
+    max-width: 30dvw;
+    /* place-self: center; */
+    border-radius: 0.3rem;
+}
+.title {
+    /* text-align: center; */
+    /* margin-top: 3rem; */
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 3rem ;
+}
+
+header span {
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.1rem;
+    font-weight: 600;
+}
+
+.generate-report-button {
+    background-color: rgb(255, 234, 0);
+    color: black;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    /* border: none; */
+
+}
+input:focus {
+    outline: none;
+    border-color: black;
+}
+
+.income-container {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.plus-button {
+    font-size: 1.2rem;
+}
+.generate-report-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+
+.expensesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.expense-item {
+    display: grid;
+    grid-template-columns: 10rem 3fr;
+    gap: 1ch;
+    margin-bottom: 1rem;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-income, .calculation {
+    margin-bottom: 2rem;
+}
+
+.right-container h3, .right-container h4 {
+    margin-bottom: 1rem;
+}
