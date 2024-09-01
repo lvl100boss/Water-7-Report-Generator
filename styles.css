@@ -128,3 +128,20 @@ input:focus {
 .right-container h3, .right-container h4 {
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0 2rem;
+    }
+    .right-container {
+        max-width: 100%;
+    }
+    .container {
+        max-width: 100%;
+    }
+    header {
+        padding: 2rem 2rem;
+    }
+    
+}
